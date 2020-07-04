@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title >AYU SRI WAHYUNI</title>
+	<link rel="stylesheet" href="./ayu.css">
+</head>
+<style>
+	table, th, td{
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th, td{
+		padding: 5px;
+		text-align: left;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="judul">PROTOFILO</h1>
+			<ul>
+				<li><a href="ayu.html">home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">todo</a></li>
+				<li><a href="#">blog</a></li>
+				<li><a href="#">contact</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<input type="text" id="judul" />
+			<button onclick="addtodo()">add todo</button>
+      <table style="width:100%" id="todostable">
+        <tr>
+          <th>todos</th>
+          <td colspan="2">action</td>
+        </tr>
+			</table>					
+			
+	<!--footer-->		
+		</div>
+		<div class="footer">
+			<p class="copy">Copyright 2020. popojanitrabtari</p>
+		</div>
+	</div>
+	<script src="ayu.js"></script>
+</body>
+</html>

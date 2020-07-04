@@ -90,7 +90,7 @@ body {
 
 .hero {
   height: 250px;
-  background-image: url('./img/foto.jpg');
+  background-image: url('./img/IMG_7398.JPG');
   background-size: cover;
   background-position: 0 -200px;
   border-top: 5px solid salmon;
@@ -132,4 +132,9 @@ body {
   color: #eaeaea;
   text-align: center;
   font-size: 12px;
+}
+
+.table{
+background-color: black;
+color: white; 
 }
